@@ -2,8 +2,6 @@ backend:
   name: github
   repo: aarrcoding/anna-portfolio
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 locale: ru
 site_url: /
 media_folder: assets/uploads
