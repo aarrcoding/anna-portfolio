@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: GITHUB_USER/anna-portfolio   # <- будет заменено на реальный репозиторий
+  repo: aarrcoding/anna-portfolio
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
