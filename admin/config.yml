@@ -3,7 +3,7 @@ backend:
   repo: aarrcoding/anna-portfolio
   branch: main
 locale: ru
-site_url: /
+site_url: https://anna-portfolio-idi9.netlify.app
 media_folder: assets/uploads
 public_folder: /assets/uploads
 
