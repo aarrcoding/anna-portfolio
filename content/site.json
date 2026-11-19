@@ -1,0 +1,174 @@
+{
+ "name": "Anna Rudina",
+ "year": "2026",
+ "hello": "hi, I'm Anna!",
+ "tagline": "Good content is idea + structure + emotion.\n\nI plan, shoot and design — from product listings to a brand's social media.",
+ "hero_photo": "/assets/anna-hero.jpg",
+ "about_photo": "/assets/anna-about.jpg",
+ "about": "**Hi! My name is Anna.** I'm a digital media student in Seoul and a freelance designer with 5+ years of experience. I create ==visual content, social media and presentations== that communicate a brand's message.\n\nI currently work as a Marketing Manager Assistant at **Bueno Bio**: I run three SNS channels, design A+ content and product pages for Amazon and YesStyle, shoot reels and collaborate with influencers.\n\nI speak Russian, English and Korean, so I can build content for several markets at once. I love K-beauty, culture and life in Korea.",
+ "contacts": [
+  {
+   "label": "✉ aarrwork@gmail.com",
+   "url": "mailto:aarrwork@gmail.com"
+  },
+  {
+   "label": "Instagram @hanna.rudina",
+   "url": "https://instagram.com/hanna.rudina"
+  },
+  {
+   "label": "TikTok @hanna.korea",
+   "url": "https://tiktok.com/@hanna.korea"
+  },
+  {
+   "label": "Visual portfolio ↗",
+   "url": "https://aarrcoding.github.io/Portfolio/"
+  }
+ ],
+ "skills": [
+  {
+   "title": "Social media content",
+   "text": "Instagram, TikTok, YouTube: ideas, shooting, editing, content plans."
+  },
+  {
+   "title": "Marketplaces",
+   "text": "Product pages and A+ content for Amazon and YesStyle."
+  },
+  {
+   "title": "Presentations & guides",
+   "text": "PDF guides, pitch decks, webinars, branded kits."
+  },
+  {
+   "title": "Web",
+   "text": "Design in Figma, HTML/CSS coding, GitHub deployment."
+  }
+ ],
+ "soft_skills": [
+  "Attention to detail",
+  "Systems thinking",
+  "Teamwork",
+  "Market & audience research",
+  "Copywriting & scripts (RU · EN · KO)"
+ ],
+ "software": [
+  "Figma",
+  "Photoshop",
+  "Illustrator",
+  "After Effects",
+  "CapCut",
+  "Premiere Pro",
+  "Canva",
+  "Notion",
+  "HTML / CSS",
+  "GitHub"
+ ],
+ "languages": [
+  "Russian — native",
+  "English — B1",
+  "한국어 — TOPIK 5"
+ ],
+ "experience": [
+  {
+   "title": "Bueno Bio — Marketing Manager Assistant",
+   "meta": "Remote · Oct 2025 — present",
+   "text": "Product pages and A+ content for Amazon / YesStyle, listing optimization. Managing 3 SNS channels (2 Instagram, 1 TikTok): reels and posts. Influencer collaborations, promo videos, market research before product launches, PDF presentations. Built team workflows in Notion.",
+   "color": "gold"
+  },
+  {
+   "title": "Freelance Visual Content Designer",
+   "meta": "Remote · Jul 2019 — present",
+   "text": "Brand identity and SNS kits for clients. 15+ PDF guides and presentations delivered in a week, Instagram templates, content packages, webinar and product launch materials.",
+   "color": ""
+  }
+ ],
+ "education": [
+  {
+   "title": "Seoul Women’s University",
+   "meta": "Digital Media · Mar — Dec 2025",
+   "text": "Visual communication, storytelling and presentation structure; tools and platforms for video, graphics and interactive content; audience growth strategies.",
+   "color": "rose"
+  },
+  {
+   "title": "Soongsil University",
+   "meta": "Business Administration · from Mar 2026",
+   "text": "Management and marketing — to connect design with business goals.",
+   "color": ""
+  },
+  {
+   "title": "Languages",
+   "meta": "",
+   "text": "Russian — native · English — intermediate · 한국어 — intermediate (TOPIK 5)",
+   "color": "gold"
+  }
+ ],
+ "amazon_lead": "Amazon listings and A+ content for Bueno Bio — K-beauty products. Click a product to see the full set.",
+ "categories": [
+  {
+   "label": "MARKETPLACE",
+   "title": "Amazon A+ / YesStyle",
+   "text": "Listings and A+ content for 11 K-beauty products.",
+   "link": "amazon",
+   "action": "view ↗"
+  },
+  {
+   "label": "SOCIAL MEDIA",
+   "title": "Reels & TikTok",
+   "text": "Ideas, shooting and editing. 90,000 views on TikTok, 1–10K reactions on Instagram.",
+   "link": "",
+   "action": "coming soon"
+  },
+  {
+   "label": "PRESENTATION",
+   "title": "PDF guides & pitches",
+   "text": "Product and educational presentations for brands and creators.",
+   "link": "",
+   "action": "coming soon"
+  },
+  {
+   "label": "BRANDING",
+   "title": "SNS brand kits",
+   "text": "Templates, covers and visual identity for Instagram.",
+   "link": "",
+   "action": "coming soon"
+  },
+  {
+   "label": "VIDEO",
+   "title": "Promo videos",
+   "text": "Product promo videos: CapCut, After Effects, Premiere.",
+   "link": "",
+   "action": "coming soon"
+  },
+  {
+   "label": "WEB",
+   "title": "HTML/CSS websites",
+   "text": "Visual portfolio and landing pages on GitHub Pages.",
+   "link": "https://aarrcoding.github.io/Portfolio/",
+   "action": "view ↗"
+  }
+ ],
+ "stats": [
+  {
+   "value": "5+",
+   "label": "years freelancing"
+  },
+  {
+   "value": "3",
+   "label": "SNS channels managed"
+  },
+  {
+   "value": "90K",
+   "label": "TikTok views"
+  },
+  {
+   "value": "3",
+   "label": "languages: RU · EN · KO"
+  }
+ ],
+ "contact": {
+  "title": "any questions?",
+  "text": "Write to me — let's discuss your project.",
+  "button": "get in touch",
+  "email": "aarrwork@gmail.com"
+ },
+ "footer_left": "Anna Rudina · Seoul",
+ "footer_right": "Instagram @hanna.rudina · TikTok @hanna.korea"
+}

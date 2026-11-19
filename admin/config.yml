@@ -1,0 +1,97 @@
+backend:
+  name: github
+  repo: GITHUB_USER/anna-portfolio   # <- будет заменено на реальный репозиторий
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+locale: ru
+site_url: /
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: pages
+    label: "Сайт"
+    files:
+      - name: site
+        label: "Тексты и контакты"
+        file: content/site.json
+        fields:
+          - {label: "Имя (внизу шапки)", name: name, widget: string}
+          - {label: "Год", name: year, widget: string}
+          - {label: "Приветствие", name: hello, widget: string}
+          - {label: "Подпись на листе", name: tagline, widget: text}
+          - {label: "Фото на полароиде", name: hero_photo, widget: image}
+          - {label: "Фото в «About me»", name: about_photo, widget: image}
+          - {label: "Текст «About me» (**жирный**, ==выделение==, абзацы через пустую строку)", name: about, widget: text}
+          - label: "Контакты-кнопки"
+            name: contacts
+            widget: list
+            fields:
+              - {label: "Текст", name: label, widget: string}
+              - {label: "Ссылка", name: url, widget: string}
+          - label: "Ключевые навыки"
+            name: skills
+            widget: list
+            fields:
+              - {label: "Название", name: title, widget: string}
+              - {label: "Описание", name: text, widget: text}
+          - {label: "Soft skills", name: soft_skills, widget: list, field: {label: "Навык", name: v, widget: string}}
+          - {label: "Программы (Software)", name: software, widget: list, field: {label: "Программа", name: v, widget: string}}
+          - {label: "Языки", name: languages, widget: list, field: {label: "Язык", name: v, widget: string}}
+          - label: "Опыт работы"
+            name: experience
+            widget: list
+            fields:
+              - {label: "Название", name: title, widget: string}
+              - {label: "Даты / место", name: meta, widget: string, required: false}
+              - {label: "Описание", name: text, widget: text}
+              - {label: "Цвет полоски", name: color, widget: select, options: ["", gold, rose], default: "", required: false}
+          - label: "Образование"
+            name: education
+            widget: list
+            fields:
+              - {label: "Название", name: title, widget: string}
+              - {label: "Даты / место", name: meta, widget: string, required: false}
+              - {label: "Описание", name: text, widget: text}
+              - {label: "Цвет полоски", name: color, widget: select, options: ["", gold, rose], default: "", required: false}
+          - {label: "Подпись над Amazon-проектами", name: amazon_lead, widget: text}
+          - label: "Карточки проектов"
+            name: categories
+            widget: list
+            fields:
+              - {label: "Метка", name: label, widget: string}
+              - {label: "Заголовок", name: title, widget: string}
+              - {label: "Описание", name: text, widget: text}
+              - {label: "Ссылка (пусто = просто карточка, amazon = открыть Amazon-проекты)", name: link, widget: string, required: false}
+              - {label: "Надпись внизу", name: action, widget: string}
+          - label: "Цифры"
+            name: stats
+            widget: list
+            fields:
+              - {label: "Число", name: value, widget: string}
+              - {label: "Подпись", name: label, widget: string}
+          - label: "Блок «Контакты»"
+            name: contact
+            widget: object
+            fields:
+              - {label: "Заголовок", name: title, widget: string}
+              - {label: "Текст", name: text, widget: string}
+              - {label: "Кнопка", name: button, widget: string}
+              - {label: "Email", name: email, widget: string}
+          - {label: "Футер слева", name: footer_left, widget: string}
+          - {label: "Футер справа", name: footer_right, widget: string}
+      - name: products
+        label: "Amazon-проекты (товары и картинки)"
+        file: content/products.json
+        fields:
+          - label: "Товары"
+            name: products
+            widget: list
+            fields:
+              - {label: "Название", name: name, widget: string}
+              - {label: "Listing images", name: listing, widget: list, required: false, field: {label: "Картинка", name: v, widget: image}}
+              - {label: "A+ desktop", name: aplus, widget: list, required: false, field: {label: "Картинка", name: v, widget: image}}
+              - {label: "A+ mobile", name: aplus_mobile, widget: list, required: false, field: {label: "Картинка", name: v, widget: image}}
+              - {label: "Japan version", name: japan, widget: list, required: false, field: {label: "Картинка", name: v, widget: image}}
+              - {label: "TikTok", name: tiktok, widget: list, required: false, field: {label: "Картинка", name: v, widget: image}}
