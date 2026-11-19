@@ -31,7 +31,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:Manrope,sans-serif;background:#4a4d52;color:var(--ink);line-height:1.55}
+body{font-family:Manrope,sans-serif;background:var(--cream);overflow-x:hidden;color:var(--ink);line-height:1.55}
 .page{max-width:1100px;margin:0 auto;background:var(--cream)}
 a{color:inherit}
 
@@ -194,6 +194,11 @@ hr.soft{border:0;border-top:1px solid #0001;margin:48px 0}
 .btn{display:inline-block;background:var(--graphite);color:var(--cream);padding:12px 28px;border-radius:999px;text-decoration:none;font-weight:700;font-size:14px;transition:.2s}
 .btn:hover{background:var(--blue-dark)}
 footer{background:var(--graphite);color:var(--sky);padding:22px 40px;font-size:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* full-bleed bands: extend each coloured band to the screen edges, layout unchanged */
+.hero,.tabs,.contact,footer{clip-path:inset(0 -100vmax)}
+.hero,.tabs,footer{box-shadow:0 0 0 100vmax var(--graphite)}
+.contact{box-shadow:0 0 0 100vmax var(--rose)}
 </style>
 </head>
 <body>
